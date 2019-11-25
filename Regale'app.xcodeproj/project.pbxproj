@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C124CBB23687F5500A687DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C124CBA23687F5400A687DB /* HomeViewController.swift */; };
+		2C124CBD23687F6400A687DB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C124CBC23687F6400A687DB /* SearchViewController.swift */; };
+		2C124CC72369E59F00A687DB /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C124CC62369E59F00A687DB /* HomeNavigationController.swift */; };
+		2C124CC92369E5E700A687DB /* SearchNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C124CC82369E5E700A687DB /* SearchNavigationController.swift */; };
+		2C31B0052383DEC400A139D0 /* ApiLooker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C31B0042383DEC400A139D0 /* ApiLooker.swift */; };
 		2C4F97BD236844760087F17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F97BC236844760087F17C /* AppDelegate.swift */; };
 		2C4F97BF236844760087F17C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F97BE236844760087F17C /* ViewController.swift */; };
-		2C4F97C2236844760087F17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4F97C0236844760087F17C /* Main.storyboard */; };
 		2C4F97C5236844760087F17C /* Regale_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F97C3236844760087F17C /* Regale_app.xcdatamodeld */; };
 		2C4F97C72368447A0087F17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4F97C62368447A0087F17C /* Assets.xcassets */; };
 		2C4F97CA2368447A0087F17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4F97C82368447A0087F17C /* LaunchScreen.storyboard */; };
 		2C4F97D52368447B0087F17C /* Regale_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F97D42368447B0087F17C /* Regale_appTests.swift */; };
+		2C4F97E0236845980087F17C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F97DF236845980087F17C /* MainViewController.swift */; };
+		48DBE8F686972D6C51A00611 /* Pods_Regale_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24BD446605625FC64E8CA70 /* Pods_Regale_appTests.framework */; };
+		ACB7EF071E99A062FD2B46A5 /* Pods_Regale_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123666842E80F05CC37495CD /* Pods_Regale_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07A00DCC1946D2387BE2D846 /* Pods-Regale'appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Regale'appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Regale'appTests/Pods-Regale'appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		123666842E80F05CC37495CD /* Pods_Regale_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Regale_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CB9C2FEC320BD62174288F /* Pods-Regale'appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Regale'appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Regale'appTests/Pods-Regale'appTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C124CBA23687F5400A687DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2C124CBC23687F6400A687DB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2C124CC62369E59F00A687DB /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
+		2C124CC82369E5E700A687DB /* SearchNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavigationController.swift; sourceTree = "<group>"; };
+		2C31B0042383DEC400A139D0 /* ApiLooker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiLooker.swift; sourceTree = "<group>"; };
 		2C4F97B9236844760087F17C /* Regale'app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Regale'app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4F97BC236844760087F17C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C4F97BE236844760087F17C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C4F97C1236844760087F17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C4F97C4236844760087F17C /* Regale_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Regale_app.xcdatamodel; sourceTree = "<group>"; };
 		2C4F97C62368447A0087F17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C4F97C92368447A0087F17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +52,10 @@
 		2C4F97D02368447B0087F17C /* Regale'appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Regale'appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4F97D42368447B0087F17C /* Regale_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regale_appTests.swift; sourceTree = "<group>"; };
 		2C4F97D62368447B0087F17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4F97DF236845980087F17C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		627F81C2906515D61B128320 /* Pods-Regale'app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Regale'app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Regale'app/Pods-Regale'app.debug.xcconfig"; sourceTree = "<group>"; };
+		C24BD446605625FC64E8CA70 /* Pods_Regale_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Regale_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1B0138DB0B3E58A00EEF61 /* Pods-Regale'app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Regale'app.release.xcconfig"; path = "Pods/Target Support Files/Pods-Regale'app/Pods-Regale'app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB7EF071E99A062FD2B46A5 /* Pods_Regale_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DBE8F686972D6C51A00611 /* Pods_Regale_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +84,8 @@
 				2C4F97BB236844760087F17C /* Regale'app */,
 				2C4F97D32368447B0087F17C /* Regale'appTests */,
 				2C4F97BA236844760087F17C /* Products */,
+				A46DF4BB1C6F1A316CE1C8F0 /* Pods */,
+				C3CBB4BD0491C576BAC25E94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +103,16 @@
 			children = (
 				2C4F97BC236844760087F17C /* AppDelegate.swift */,
 				2C4F97BE236844760087F17C /* ViewController.swift */,
-				2C4F97C0236844760087F17C /* Main.storyboard */,
 				2C4F97C62368447A0087F17C /* Assets.xcassets */,
 				2C4F97C82368447A0087F17C /* LaunchScreen.storyboard */,
 				2C4F97CB2368447A0087F17C /* Info.plist */,
 				2C4F97C3236844760087F17C /* Regale_app.xcdatamodeld */,
+				2C4F97DF236845980087F17C /* MainViewController.swift */,
+				2C124CBA23687F5400A687DB /* HomeViewController.swift */,
+				2C124CBC23687F6400A687DB /* SearchViewController.swift */,
+				2C124CC62369E59F00A687DB /* HomeNavigationController.swift */,
+				2C124CC82369E5E700A687DB /* SearchNavigationController.swift */,
+				2C31B0042383DEC400A139D0 /* ApiLooker.swift */,
 			);
 			path = "Regale'app";
 			sourceTree = "<group>";
@@ -99,6 +126,26 @@
 			path = "Regale'appTests";
 			sourceTree = "<group>";
 		};
+		A46DF4BB1C6F1A316CE1C8F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				627F81C2906515D61B128320 /* Pods-Regale'app.debug.xcconfig */,
+				CC1B0138DB0B3E58A00EEF61 /* Pods-Regale'app.release.xcconfig */,
+				07A00DCC1946D2387BE2D846 /* Pods-Regale'appTests.debug.xcconfig */,
+				20CB9C2FEC320BD62174288F /* Pods-Regale'appTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3CBB4BD0491C576BAC25E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				123666842E80F05CC37495CD /* Pods_Regale_app.framework */,
+				C24BD446605625FC64E8CA70 /* Pods_Regale_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C4F97D92368447B0087F17C /* Build configuration list for PBXNativeTarget "Regale'app" */;
 			buildPhases = (
+				4C85E7816460375A4B9C9849 /* [CP] Check Pods Manifest.lock */,
 				2C4F97B5236844760087F17C /* Sources */,
 				2C4F97B6236844760087F17C /* Frameworks */,
 				2C4F97B7236844760087F17C /* Resources */,
@@ -123,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C4F97DC2368447B0087F17C /* Build configuration list for PBXNativeTarget "Regale'appTests" */;
 			buildPhases = (
+				77BF391BC77566AC969C2702 /* [CP] Check Pods Manifest.lock */,
 				2C4F97CC2368447B0087F17C /* Sources */,
 				2C4F97CD2368447B0087F17C /* Frameworks */,
 				2C4F97CE2368447B0087F17C /* Resources */,
@@ -182,7 +231,6 @@
 			files = (
 				2C4F97CA2368447A0087F17C /* LaunchScreen.storyboard in Resources */,
 				2C4F97C72368447A0087F17C /* Assets.xcassets in Resources */,
-				2C4F97C2236844760087F17C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +243,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C85E7816460375A4B9C9849 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Regale'app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77BF391BC77566AC969C2702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Regale'appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C4F97B5236844760087F17C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C124CBD23687F6400A687DB /* SearchViewController.swift in Sources */,
+				2C31B0052383DEC400A139D0 /* ApiLooker.swift in Sources */,
+				2C124CBB23687F5500A687DB /* HomeViewController.swift in Sources */,
+				2C124CC92369E5E700A687DB /* SearchNavigationController.swift in Sources */,
 				2C4F97C5236844760087F17C /* Regale_app.xcdatamodeld in Sources */,
+				2C124CC72369E59F00A687DB /* HomeNavigationController.swift in Sources */,
 				2C4F97BF236844760087F17C /* ViewController.swift in Sources */,
 				2C4F97BD236844760087F17C /* AppDelegate.swift in Sources */,
+				2C4F97E0236845980087F17C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +318,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2C4F97C0236844760087F17C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C4F97C1236844760087F17C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C4F97C82368447A0087F17C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,15 +447,13 @@
 		};
 		2C4F97DA2368447B0087F17C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627F81C2906515D61B128320 /* Pods-Regale'app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KM3Z3AQZT8;
 				INFOPLIST_FILE = "Regale'app/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexendre.Regale-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -380,15 +463,13 @@
 		};
 		2C4F97DB2368447B0087F17C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1B0138DB0B3E58A00EEF61 /* Pods-Regale'app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KM3Z3AQZT8;
 				INFOPLIST_FILE = "Regale'app/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexendre.Regale-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -398,17 +479,14 @@
 		};
 		2C4F97DD2368447B0087F17C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A00DCC1946D2387BE2D846 /* Pods-Regale'appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KM3Z3AQZT8;
 				INFOPLIST_FILE = "Regale'appTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexendre.Regale-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -419,17 +497,14 @@
 		};
 		2C4F97DE2368447B0087F17C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CB9C2FEC320BD62174288F /* Pods-Regale'appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KM3Z3AQZT8;
 				INFOPLIST_FILE = "Regale'appTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexendre.Regale-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
